@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Admin Panel</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Traffic Light</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search admin panel..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="" class="image" alt="">
+         <h3 class="name">Sujal maharjan</h3>
+         <p class="role">Admin</p>
+         <a href="profile.html" class="btn">view profile</a>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="" class="image" alt="">
+      <h3 class="name">Sujal maharjan</h3>
+      <p class="role">Admin</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="dashboard.html"><i class="fa-solid fa-gauge"></i></i><span>Dashboard</span></a>
+      <a href="../index.html"><i class="fa-solid fa-right-from-bracket"></i><span>Log Out</span></a>
+   </nav>
+
+</div>
+
+<section class="home-grid">
+
+   <h1 class="heading">Overview</h1>
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Accident Details</h3>
+         <p class="likes">Duration : <span>25 days</span></p>
+         <a href="" class="inline-btn">View Hisrory</a>
+         <p class="likes">Total killed : <span>1</span></p>
+         <a href="" class="inline-btn">Traffic News Update</a>
+         <p class="likes">Total injured : <span>4</span></p>
+         <a href="" class="inline-btn">Reviews</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Reasons of accidents</h3>
+         <div class="flex">
+            <a href="#"><i class=" "></i><span>Without Seatbelt</span></a>
+            <a href="#"><i class=" "></i><span>Without Helmet</span></a>
+            <a href="#"><i class=" "></i><span>Overspeeding</span></a>
+            <a href="#"><i class=" "></i><span>Distracted Driving</span></a>
+            <a href="#"><i class=" "></i><span>Construction Zones</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Popular Violation</h3>
+         <div class="flex">
+            <a href="#"><i class=" "></i><span>Invalid Licence</span></a>
+            <a href="#"><i class=" "></i><span>Invalid Registration</span></a>
+            <a href="#"><i class=" "></i><span>Overpopulated Bike</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Be safe on road</h3>
+         <p class="tutor">Safety on the road is paramount, so buckle up tight.</p>
+         <a href=" " class="inline-btn">Learn More</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="courses">
+
+   <h1 class="heading">Recent Violation Happend</h1>
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
